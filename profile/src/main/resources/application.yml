@@ -15,4 +15,3 @@ spring:
       password: admin
       database: medicus-connect
       uri: mongodb://localhost:27017
-
