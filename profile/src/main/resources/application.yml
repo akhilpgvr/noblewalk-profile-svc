@@ -1,1 +1,18 @@
-spring.application.name=profile
+server:
+  port: 8082
+  servlet:
+    context path: "/noble/profile/v1"
+spring:
+  application.:
+    name: noblewalk-profile-svc
+  mvc:
+    path match:
+      matching-strategy: ant-path-matcher
+
+  data:
+    mongodb:
+      user: admin
+      password: admin
+      database: medicus-connect
+      uri: mongodb://localhost:27017
+
